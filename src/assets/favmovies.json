@@ -1,0 +1,44 @@
+[
+    {
+     "id": 0, 
+     "poster_path":"https://image.tmdb.org/t/p/w1280/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg", 
+     "title": "Game of Thrones", 
+     "overview": "I ett land där somrarna är decennier långa och vintrarna kan vara en livstid, är det oroligheter. Från den intrigerande södern och de vilda länderna i öster till den frusna norden och den uråldriga muren som skyddar riket från mörkret bortom den, håller två mäktiga familjer på med en katt-och-råtta-lek om vem som ska styra de Sju Kungarikena i Westeros. Medan svek, lust, intriger och övernaturliga krafter skakar dessa kungariken i grunden, kommer kampen om Järntronen att få oförutsedda och långtgående följder. Vintern kommer. Kampen om Järntronen kan börja.",
+     "see_more": "https://www.themoviedb.org/tv/1399-game-of-thrones?language=sv-SE"
+    },
+    {
+     "id": 1, 
+     "poster_path":"https://image.tmdb.org/t/p/w1280/y31QB9kn3XSudA15tV7UWQ9XLuW.jpg",
+     "title": "Guardians of the Galaxy 1", 
+     "overview":"Äventyraren Peter Quill stjäl en eftertraktad himlakropp från Ronan, som är en kraftfull skurk med ambitioner att förinta hela universum. Peter slår sig sen samman med Rocket, en vapengalen tvättbjörn, Groot, en trälik humanoid, den gåtfulla Gamora och den hämndlystne Drax the Destroyer. Tillsammans bildar de ett futuristiskt team av superhjältar som skyddar galaxen mot faror.",
+     "see_more": "https://www.themoviedb.org/movie/118340-guardians-of-the-galaxy?language=sv-SE"
+    },
+    {
+     "id": 2, 
+     "poster_path":"https://image.tmdb.org/t/p/w1280/eaCmBIt0dcsV9ThpcI9CQLEPEMa.jpg", 
+     "title": "The Lord of the Rings 1",
+     "overview":"Brödraskapet har splittrats, men målet att tillintetgöra Härskarringen är ännu fullbordat. Frodo och Sam lägger sin liv i Gollums händer för att finna vägen till Mordor. Medans Sarumans armé närmar sig, måste de överlevande i brödraskapet tillsammans med människor och varelser från Midgård, förbereda sig för strid. Kriget om ringen har börjat...",
+     "see_more": "https://www.themoviedb.org/movie/121-the-lord-of-the-rings-the-two-towers?language=sv-SE"
+    },
+    {
+        "id":3,
+        "poster_path":"https://image.tmdb.org/t/p/w1280/gak2vlbmZ9K45DxbZ2vzWuWxYLH.jpg",
+        "title":"Pirates of the Caribbean 1",
+        "overview":"Den fruktade sjörövaren Barbossa (Geoffrey Rush) kidnappar den vackra guvernörsdottern Elizabeth (Keira Knightley). Hennes vän och hemlige beundrare Will (Orlando Bloom) bestämmer sig för att försöka rädda henne. Men för att komma iväg på sin räddningsaktion tvingas Will ta hjälp av den ökände piraten Jack Sparrow (Johnny Depp), som också har en gås oplockad med Barbossa. Vad Will inte vet är att det vilar en förbannelse över Barbossa och hans sjörövare. En förbannelse som måste hävas innan de kan besegras...Pirates of the Caribbean - Svarta Pärlans förbannelse är ett storslaget äventyr producerat av Jerry Bruckheimer (Pearl Harbor, Armageddon, Con Air mfl). Johnny Depp är helt magnifik i rollen som den egensinnige men oemotståndlige piraten Jack. Orlando Bloom (Sagan om Ringen) och Keira Knightley (Skruva den som Beckham) ger färg och liv åt sina roller som den unge hjälten Will och den sköna Elizabeth.",
+        "see_more":"https://www.themoviedb.org/movie/22-pirates-of-the-caribbean-the-curse-of-the-black-pearl?language=sv-SE"
+    },
+    {
+        "id":4,
+        "poster_path":"https://image.tmdb.org/t/p/w1280/8IUsB5q4xPV4Zja8yyIMZkNSOH2.jpg",
+        "title":"Pokémon Detective Pikachu ",
+        "overview":"Efter privatdetektiven Harry Goodmans mystiska försvinnande försöker hans son Tim ta reda på vad som hänt. Till sin hjälp har han den hysteriskt roliga och gulliga superdeckaren Pikachu. Tillsammans ger de sig ut på ett fartfyllt äventyr genom Ryme Citys neonbelysta gator för att lösa mysteriet. På vägen avslöjar de en ondskefull plan som hotar hela Pokémon-universumet.",
+        "see_more":"https://www.themoviedb.org/movie/447404-detective-pikachu?language=sv-SE"
+    },
+    {
+        "id":5,
+        "poster_path":"https://image.tmdb.org/t/p/w1280/qB0N1cO5SjnlETGeSoEBPSALEmu.jpg",
+        "title":"Harry Potter 1",
+        "overview":"En helt ny värld öppnar sig för Harry när han börjar på Hogwarts Skola För Häxkonster Och Trolldom. Han lär sig den flygande sporten Quidditch och spelar ett spännande spel med levande schackpjäser på sin färd mot den ondskefulle trollkarlen som är ute efter att förgöra honom.",
+        "see_more":"https://www.themoviedb.org/movie/671-harry-potter-and-the-philosopher-s-stone?language=sv-SE"
+    }
+]

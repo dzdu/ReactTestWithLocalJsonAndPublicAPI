@@ -1,32 +1,222 @@
-.App {
-  text-align: center;
-}
+
+/* HEADER */
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 130px;
+  width: auto;
+  padding: 35px;
+  margin-top: 50px;
+  margin-left: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 30s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url(./assets/images/header.jpg);
+  background-position: center;
+  background-size: cover;
+  /* background-color: #34588e; */
+  color: #ffffff;
+  height: 600px;
+  width: auto;
+
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+.header_text{
+  color: #ffffff;
+  margin-top: 100px;
+  float: right;
+  margin-right: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+/* BODY */
+
+.App{
+  background-image: url(./assets/images/bodyimg.jpg); /* bilden av https://unsplash.com/photos/rnKqWvO80Y4?utm_source=unsplash&utm_campaign=wallpapers-macos&utm_medium=referral&content=view-photo-on-unsplash*/
+  
+  /* background-color: #81a3d563; */
 }
+
+.Body{
+  background-color: #ffffff;
+  width: 90%;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+
+.Titel{
+  padding: 15px;
+  margin-left: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.MovieTitle{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 750;
+  text-align: center;
+  flex: 50%;
+}
+.Movies{
+  display: flex;
+  padding: 30px;
+  font-size: 25px;
+  width: auto;
+  color: #34588e;
+  font-weight: 700;
+}
+.MovieDescription{
+  flex: 120%;
+  padding-left: 30px;
+  width: auto;
+  font-size: 20px;
+}
+.poster{
+  flex: 50%;
+  float: left;
+  padding-right: 15px;
+  border-top-right-radius: 50px;
+}
+.poster:hover{
+  transition: 1s;
+  filter: blur(5px);
+}
+.poster:not(:hover){
+  transition: 1s;
+}
+.seemorelink{
+  flex: 20%;
+  margin: 20px;
+  width: 40px;
+  height: 90px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgb(50, 118, 109);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-decoration: none;
+  transition: 2s;
+}:visited{
+  color: #ffffff;
+}
+.seemorelink:hover{
+  background-color: #e67d84;
+  transition: 2s;
+}
+
+.seemorelink2{
+  flex: 20%;
+  margin: 20px;
+  width: 40px;
+  height: 90px;
+  border-radius: 15px;
+  background-color: rgb(50, 118, 109);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-decoration: none;
+  transition: 2s;
+  color: #ffffff;
+}:visited{
+  color: #ffffff;
+}
+.seemorelink2:hover{
+  background-color: #e67d84;
+  transition: 2s;
+}
+
+.searchDiv{
+  text-align: center;
+  padding: 40px;
+}
+.search{
+  font-size: 25px;
+  height: 60px;
+  width: 600px;
+  border-radius: 35px;
+  border-width: 1px;
+  color: #ffffff;
+  background: linear-gradient(90deg, rgba(33,45,173,1) 0%, rgba(253,29,29,0.8239670868347339) 50%, rgba(194,163,94,1) 100%);
+  transition: 1s;
+  text-align: center;
+}
+.search::placeholder{
+  color: #ffffff8e;
+  text-align: center;
+}
+.search:hover{
+  transition: 1s;
+  padding-bottom: 15px;
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+.searchiput{
+  font-size: 25px;
+  height: 60px;
+  width: 600px;
+  border-radius: 35px;
+  border-width: 1px;
+  color: #ffffff;
+  background-color: rgba(13, 36, 126, 0.651);
+  transition: 1s;
+  text-align: center;
+}.searchiput:hover{
+  transition: 1s;
+  background-color: rgba(33,45,173,1);
+}.searchiput::placeholder{
+  color: #ffffff;
+}
+.Homebtn{
+  font-size: 35px;
+  border-bottom-left-radius: 50%;
+  float: left;
+  border-width: 0;
+  padding: 7px;
+  background-color: rgba(13, 36, 126, 0.651);
+  transition: 1s;
+
+}
+.Homebtn::placeholder{
+  color: #ffffff8e;
+  text-align: center;
+}
+.Homebtn:hover{
+  transition: 1s;
+  background-color: rgba(33,45,173,1);
+}
+
+
+/* FOOTER */
+
+.Footer{
+  width: auto;
+  height: 100px;
+  background-color: rgba(13, 36, 126, 0.651);
+  color: #ffffff;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  font-size: 25px;
+  padding: 25px;
+
+}
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +225,56 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/*EXTRA*/
+
+.UppEmoji{
+
+  border-width: 2px;
+  height: 70px;
+  border-width: 0;
+  margin: 10px;
+  font-size: 40px;
+  color: #34588eb0;
+  transition: 1s;
+}.UppEmoji:visited{
+  text-decoration: none;
+  text-transform: none;
+}.UppEmoji:hover{
+  transition: 1s;
+  color: #ce6f75;
+}
+
+.MenuEmoji{
+  margin-top: 200px;
+  font-size: 25px;
+  color: #ffffff;
+  transition: 1s;
+  background: linear-gradient(90deg, rgba(33,45,173,1) 0%, rgba(253,29,29,0.8239670868347339) 50%, rgba(194,163,94,1) 100%);
+}
+.MenuEmoji:hover{
+  transition: 1s;
+  font-size: 30px;
+  padding-right: 10px;
+  border-top-right-radius: 25px;
+}
+.DownEmoji{
+  font-size: 40px;
+  color: #34588ebb;
+}
+.DownEmoji, .MenuEmoji{
+  border-width: 0;
+  height: 50px;
+  margin-right: 20px;
+  margin-left: 50px;
+  text-align: center;
+  transition: 1s;
+}.DownEmoji:visited, .MenuEmoji:visited{
+  text-decoration: none;
+  text-transform: none;
+}.DownEmoji:hover{
+  transition: 1s;
+  color: #ce6f75;
 }
